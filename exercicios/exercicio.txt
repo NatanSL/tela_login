@@ -1,0 +1,31 @@
+Function calculador (n1, n2)
+ {
+   let resul, resul2, resul3, resul4
+
+   resul = n1 + n2
+   resul2 = n1 - n2
+   resul3 = n1 * n2
+   resul4 = n1/n2
+  //  resultado = n1 * n2
+  //  resultado = n1 / n2
+   
+
+   return console.log(`
+        soma: ${resul}
+        substração: ${resul2}
+        Multiplicação: ${resul3}
+        Divisão: ${resul4}
+    `)
+ }
+
+ calculador(1,2)
+-----------------------------------------------------------------------------
+function calculator(j) {
+  if (j % 2 == 0){
+    console.log("é par")
+  } else {
+    console.log("é impar")
+  }
+}
+
+calculator(2)
